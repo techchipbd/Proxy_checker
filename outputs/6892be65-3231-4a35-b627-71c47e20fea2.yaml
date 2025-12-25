@@ -1,0 +1,2677 @@
+mixed-port: 7890
+mode: rule
+proxies:
+- name: 🏳️ None | TW01|1021-1H
+  server: 1.165.100.112
+  port: 10021
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1064-1C
+  server: 36.234.79.5
+  port: 10064
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1068-1B
+  server: 36.234.98.63
+  port: 10068
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1007-1E
+  server: 125.229.191.101
+  port: 10007
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1033-1H
+  server: 125.229.191.104
+  port: 10033
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港01|BGP专线|VIP01-2S
+  server: 183.60.254.172
+  port: 14514
+  type: trojan
+  password: 5e6defb0-5a97-4ff3-9f6c-1ebef6152e96
+  sni: aliyun.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾01|BGP专线|SVIP03-1N
+  server: 106.75.134.1
+  port: 12000
+  type: trojan
+  password: d489c46e-10f8-4e81-aef0-ccde5deddafe
+  sni: aliyun.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|1019-1F
+  server: 125.229.191.102
+  port: 10019
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港04|BGP专线|SVIP03-3G
+  server: 165.154.112.107
+  port: 12000
+  type: trojan
+  password: 5719ba70-d481-4b68-9869-ab6322d41256
+  sni: aliyun.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|1027-1G
+  server: 1.165.89.242
+  port: 10027
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2067-1B
+  server: 36.232.74.170
+  port: 10147
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| V2RAY TCP-1P
+  server: 38.130.98.152
+  port: 8843
+  type: vmess
+  uuid: 2e220bcd-5667-4be4-a95b-c32e2980e972
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | TW01|1030-1B
+  server: 118.170.200.75
+  port: 10030
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2034-1F
+  server: 36.232.80.208
+  port: 10114
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2031-1D
+  server: 1.170.17.185
+  port: 10111
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|2064-1H
+  server: 36.232.70.44
+  port: 10144
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1060-1B
+  server: 114.46.121.122
+  port: 10060
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2069-1F
+  server: 36.232.112.97
+  port: 10149
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1036-1E
+  server: 1.165.92.146
+  port: 10036
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1069-1A
+  server: 1.165.68.80
+  port: 10069
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1070-1G
+  server: 36.234.101.165
+  port: 10070
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2037-1A
+  server: 36.235.0.174
+  port: 10117
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国-纽约-001-1G
+  server: 212.192.15.244
+  port: 22123
+  type: vmess
+  uuid: 83d40dbc-ec40-48f4-b86f-f19d0da859bf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🏳️ None | TW01|2003-1E
+  server: 1.170.32.12
+  port: 10083
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2059-1A
+  server: 36.232.100.241
+  port: 10139
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1029-1B
+  server: 125.230.9.125
+  port: 10029
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2054-1D
+  server: 111.253.196.37
+  port: 10134
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|2065-1B
+  server: 125.228.162.233
+  port: 10145
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1051-1F
+  server: 36.234.114.145
+  port: 10051
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2025-1C
+  server: 125.228.34.244
+  port: 10105
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2019-1A
+  server: 1.170.23.189
+  port: 10099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2042-1A
+  server: 36.235.2.193
+  port: 10122
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| VMESS WEBSOCKET-1F
+  server: 38.126.114.213
+  port: 23552
+  type: vmess
+  uuid: 2e225e1f-b61d-4cde-a9e3-46b3bea1a279
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🏳️ None | TW01|2055-1C
+  server: 36.232.102.83
+  port: 10135
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2016-1F
+  server: 1.170.54.230
+  port: 10096
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1061-1B
+  server: 1.165.78.73
+  port: 10061
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2072-1C
+  server: 1.170.5.24
+  port: 10152
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2012-1B
+  server: 1.170.0.51
+  port: 10092
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1031-1B
+  server: 118.170.250.232
+  port: 10031
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2068-1C
+  server: 1.170.28.74
+  port: 10148
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2011-1C
+  server: 36.232.106.91
+  port: 10091
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1056-1G
+  server: 36.234.82.71
+  port: 10056
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国-拉斯维加斯-002-1N
+  server: 212.192.15.244
+  port: 25168
+  type: vmess
+  uuid: 5d1a3401-31d0-43bc-ab7d-92167b3d4b9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🏳️ None | TW01|2039-1H
+  server: 1.170.27.240
+  port: 10119
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|2017-1B
+  server: 125.228.31.117
+  port: 10097
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2041-1C
+  server: 125.229.88.58
+  port: 10121
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2044-1H
+  server: 36.232.81.21
+  port: 10124
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国01|流媒体
+  server: 79.72.81.183
+  port: 30000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  sni: www.apple.com
+  skip-cert-verify: true
+  ports: 30000-50000
+  udp: true
+- name: 🏳️ None | TW01|2020-1C
+  server: 1.170.31.246
+  port: 10100
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2001-1F
+  server: 125.228.180.250
+  port: 10081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1080-1H
+  server: 125.231.74.223
+  port: 10080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1065-1A
+  server: 114.46.75.81
+  port: 10065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2036-1C
+  server: 1.170.5.222
+  port: 10116
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1004-1C
+  server: 118.170.219.156
+  port: 10004
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2061-1C
+  server: 36.232.77.52
+  port: 10141
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1057-1B
+  server: 114.46.96.8
+  port: 10057
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1002-1C
+  server: 1.165.101.78
+  port: 10002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2052-1A
+  server: 36.232.79.224
+  port: 10132
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1074-1B
+  server: 125.231.81.129
+  port: 10074
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1054-1G
+  server: 118.170.231.85
+  port: 10054
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2021-1H
+  server: 1.170.0.112
+  port: 10101
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1009-1C
+  server: 118.170.252.44
+  port: 10009
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1041-1A
+  server: 1.165.87.57
+  port: 10041
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国02|流媒体
+  server: 129.153.119.42
+  port: 30000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  sni: www.apple.com
+  skip-cert-verify: true
+  ports: 30000-50000
+  udp: true
+- name: 🏳️ None | TW01|2009-1E
+  server: 125.228.180.215
+  port: 10089
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2070-1G
+  server: 36.232.71.172
+  port: 10150
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2013-1D
+  server: 1.170.21.60
+  port: 10093
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1005-1E
+  server: 1.165.66.65
+  port: 10005
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2002-1B
+  server: 36.235.14.63
+  port: 10082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  server: 212.192.15.244
+  port: 33079
+  type: hysteria2
+  password: ef1324c2-d20d-4c59-852c-1c86bd3f20f4
+  auth: ef1324c2-d20d-4c59-852c-1c86bd3f20f4
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🏳️ None | TW01|2060-1A
+  server: 36.232.66.225
+  port: 10140
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| SHADOWSOCKS-1B
+  server: 38.130.98.152
+  port: 23655
+  type: ss
+  cipher: aes-256-gcm
+  password: 56a25bcb-88cf-48e4-840b-fbc57831daf8
+  udp: true
+- name: 🏳️ None | TW01|1018-1H
+  server: 1.165.110.26
+  port: 10018
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1047-1D
+  server: 114.33.53.80
+  port: 10047
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1010-1C
+  server: 118.170.241.37
+  port: 10010
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1043-1A
+  server: 36.234.85.103
+  port: 10043
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2023-1F
+  server: 1.170.28.78
+  port: 10103
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1053-1D
+  server: 36.234.103.184
+  port: 10053
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|2038-1B
+  server: 1.170.12.61
+  port: 10118
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1020-1G
+  server: 1.165.114.1
+  port: 10020
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1038-1H
+  server: 114.46.84.68
+  port: 10038
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|2063-1B
+  server: 36.232.71.154
+  port: 10143
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1003-1D
+  server: 36.234.65.186
+  port: 10003
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1073-1E
+  server: 59.126.32.188
+  port: 10073
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2004-1H
+  server: 1.170.53.88
+  port: 10084
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|1012-1B
+  server: 36.234.94.76
+  port: 10012
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2030-1G
+  server: 1.170.27.119
+  port: 10110
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国高速01|流媒体
+  server: 129.146.46.191
+  port: 443
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
+    short-id: 6314e825
+  servername: download-porter.hoyoverse.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | TW01|1042-1D
+  server: 114.46.118.180
+  port: 10042
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1067-1G
+  server: 114.46.107.104
+  port: 10067
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1025-1E
+  server: 118.170.250.107
+  port: 10025
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1050-1F
+  server: 36.234.77.185
+  port: 10050
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2018-1C
+  server: 111.253.216.200
+  port: 10098
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1075-1B
+  server: 36.234.86.67
+  port: 10075
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2029-1B
+  server: 1.170.44.125
+  port: 10109
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2043-1H
+  server: 36.232.95.193
+  port: 10123
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|2062-1B
+  server: 36.232.93.42
+  port: 10142
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1077-1B
+  server: 36.234.74.176
+  port: 10077
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1071-1A
+  server: 114.46.93.203
+  port: 10071
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2057-1A
+  server: 125.228.162.163
+  port: 10137
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1055-1A
+  server: 36.234.101.169
+  port: 10055
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1049-1F
+  server: 114.46.64.49
+  port: 10049
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2058-1C
+  server: 111.253.211.9
+  port: 10138
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2049-1B
+  server: 114.35.114.182
+  port: 10129
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾高速节点3
+  server: 118.232.199.14
+  port: 443
+  type: trojan
+  password: 74c71cf0-ee6c-4d92-adbc-5ca4e3beed39
+  sni: node3.yuntongclouds.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国01|流媒体
+  server: 132.226.117.48
+  port: 30000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  sni: www.apple.com
+  skip-cert-verify: true
+  ports: 30000-50000
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国-拉斯维加斯-HY-002-1R
+  server: 212.192.15.244
+  port: 80
+  type: hysteria2
+  password: ff672a5d-1c9f-465b-b128-b6a21deb97c8
+  auth: ff672a5d-1c9f-465b-b128-b6a21deb97c8
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  udp: true
+- name: 🏳️ None | TW01|2051-1G
+  server: 36.232.105.152
+  port: 10131
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1078-1F
+  server: 36.234.74.96
+  port: 10078
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1014-1C
+  server: 118.170.231.78
+  port: 10014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1048-1E
+  server: 36.234.99.49
+  port: 10048
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | 🇨🇳 中国联通节点1
+  server: 115.231.220.33
+  port: 5443
+  type: trojan
+  password: 74c71cf0-ee6c-4d92-adbc-5ca4e3beed39
+  sni: nodecn1.jiayinetwork.es
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|2053-1B
+  server: 1.170.10.218
+  port: 10133
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2005-1C
+  server: 1.170.51.86
+  port: 10085
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2040-1E
+  server: 36.235.15.221
+  port: 10120
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2032-1E
+  server: 1.170.9.131
+  port: 10112
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2027-1A
+  server: 1.170.53.35
+  port: 10107
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2015-1F
+  server: 1.170.60.178
+  port: 10095
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2035-1F
+  server: 36.232.80.198
+  port: 10115
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1001-1A
+  server: 125.229.191.100
+  port: 10001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2071-1E
+  server: 36.232.112.221
+  port: 10151
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2046-1B
+  server: 36.232.114.70
+  port: 10126
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2050-1A
+  server: 36.232.115.22
+  port: 10130
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2066-1G
+  server: 36.232.84.37
+  port: 10146
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1034-1H
+  server: 1.165.125.169
+  port: 10034
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bdb11ee9-54a3-414d-a85a-a0ed1a42a9dd
+  udp: true
+- name: 🏳️ None | TW01|2028-1F
+  server: 1.170.28.50
+  port: 10108
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1076-1E
+  server: 125.231.83.177
+  port: 10076
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2010-1B
+  server: 36.235.11.65
+  port: 10090
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1039-1C
+  server: 1.165.90.181
+  port: 10039
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1046-1A
+  server: 114.46.88.89
+  port: 10046
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|2048-1G
+  server: 36.232.79.126
+  port: 10128
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1058-1F
+  server: 59.126.32.1
+  port: 10058
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1011-1F
+  server: 118.170.194.121
+  port: 10011
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1008-1C
+  server: 114.46.76.113
+  port: 10008
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|2026-1C
+  server: 1.170.21.14
+  port: 10106
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1035-1E
+  server: 118.170.236.246
+  port: 10035
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1017-1C
+  server: 1.165.107.179
+  port: 10017
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1066-1C
+  server: 59.126.32.59
+  port: 10066
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1072-1G
+  server: 114.46.74.43
+  port: 10072
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2024-1B
+  server: 36.235.2.162
+  port: 10104
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国高速节点1
+  server: 144.34.178.66
+  port: 1443
+  type: trojan
+  password: 74c71cf0-ee6c-4d92-adbc-5ca4e3beed39
+  sni: node4.yuntongclouds.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾高速节点
+  server: 103.137.63.77
+  port: 443
+  type: trojan
+  password: 74c71cf0-ee6c-4d92-adbc-5ca4e3beed39
+  sni: node1.yuntongclouds.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|2056-1B
+  server: 111.253.196.84
+  port: 10136
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|1022-1E
+  server: 1.165.96.29
+  port: 10022
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2045-1C
+  server: 36.232.121.74
+  port: 10125
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1026-1D
+  server: 118.170.236.202
+  port: 10026
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1015-1G
+  server: 125.230.21.64
+  port: 10015
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1006-1A
+  server: 1.165.124.250
+  port: 10006
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1059-1D
+  server: 1.165.122.23
+  port: 10059
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1013-1F
+  server: 118.170.249.193
+  port: 10013
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2014-1E
+  server: 1.170.63.60
+  port: 10094
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1032-1E
+  server: 118.170.248.158
+  port: 10032
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国-纽约-HY-001-1O
+  server: 212.192.15.244
+  port: 31008
+  type: hysteria2
+  password: ef1324c2-d20d-4c59-852c-1c86bd3f20f4
+  auth: ef1324c2-d20d-4c59-852c-1c86bd3f20f4
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🏳️ None | TW01|1062-1G
+  server: 114.46.79.80
+  port: 10062
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|1063-1B
+  server: 36.234.86.9
+  port: 10063
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | TW01|2033-1E
+  server: 125.228.31.10
+  port: 10113
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|1037-1F
+  server: 114.33.53.213
+  port: 10037
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|1028-1E
+  server: 118.170.237.221
+  port: 10028
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: df9d003a-e392-4432-a7e6-b29ac1420772
+  udp: true
+- name: 🏳️ None | TW01|2006-1D
+  server: 1.170.28.243
+  port: 10086
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1079-1B
+  server: 114.46.83.123
+  port: 10079
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2b34f9e7-f923-4314-ac3c-342382689983
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾高速节点2
+  server: 118.232.199.29
+  port: 443
+  type: trojan
+  password: 74c71cf0-ee6c-4d92-adbc-5ca4e3beed39
+  sni: node2.yuntongclouds.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾03|BGP专线|SVIP03-1A
+  server: 1.1.1.1
+  port: 12000
+  type: trojan
+  password: 3aa25ae3-9e22-4908-b225-822a9370dd6f
+  sni: aliyun.com
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|2022-1G
+  server: 1.170.0.71
+  port: 10102
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 84c9d254-096c-4059-86ca-d028e37fe30b
+  udp: true
+- name: 🏳️ None | TW01|2047-1F
+  server: 36.232.82.124
+  port: 10127
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d9a52ff3-2062-474e-bfc9-aaf0ebe7b0b1
+  udp: true
+- name: 🏳️ None | TW01|2008-1C
+  server: 1.170.12.193
+  port: 10088
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | TW01|1045-1A
+  server: 114.46.121.19
+  port: 10045
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1024-1D
+  server: 1.165.82.226
+  port: 10024
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| VLESS GRPC-1A
+  server: dc6.api-aws.com
+  port: 8443
+  type: vmess
+  uuid: 793c085f-bb35-4455-9681-69a81cc125b9
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: dc6.api-aws.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: webinar
+  udp: true
+- name: 🏳️ None | 🇦🇺 澳大利亚原生1-1A
+  server: haa.dashuai.cyou
+  port: 45062
+  type: vmess
+  uuid: 53d590f8-4825-4039-aa20-10cc0c51d6f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国专线01|BGP|流媒体
+  server: aws-linkhy21.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: bilibili-kr.biliimg.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国05-1C
+  server: advin.189.ovh
+  port: 10027
+  type: trojan
+  password: 41271c56-1237-42dd-8c8f-10770fa39845
+  sni: advin.189.ovh
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港专线02|BGP|流媒体
+  server: aws-linkhy2.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡05
+  server: x02.fafhjkah.xyz
+  port: 32636
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇻🇳 越南02-1A
+  server: 02.xunyunnode.sbs
+  port: 38227
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡02丨TIKTOK-1B
+  server: 02.xunyunnode.sbs
+  port: 10463
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇧🇷 巴西 1 X1-1A
+  server: slur.izenny.com
+  port: 57577
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大2-1D
+  server: xdd.dashuai.cyou
+  port: 45065
+  type: vmess
+  uuid: ea6bbcbd-3cf3-445a-ad1f-3fbc0d9c9d4a
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港-V4|02-1D
+  server: hkvm4.656888.xyz
+  port: 30026
+  type: trojan
+  password: c384fef6-81bf-44b4-9239-910930fb8bf9
+  sni: hkvm4.656888.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇺🇸 IEPL专线 美国原生2-1B
+  server: gzdx.newbee8.me
+  port: 35659
+  type: vmess
+  uuid: 744c9c75-1df9-4e5a-b467-dcaecd2b76b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇦🇺 IEPL专线 澳大利亚1-1B
+  server: hn3x.newbee8.me
+  port: 22258
+  type: vmess
+  uuid: 744c9c75-1df9-4e5a-b467-dcaecd2b76b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇻🇳 越南01-1A
+  server: 01.xunyunnode.sbs
+  port: 10326
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾高速01|BGP|流媒体
+  server: aws-link27.liangxin1.xyz
+  port: 443
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
+    short-id: a8609be8
+  servername: download-porter.hoyoverse.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本04丨-1A
+  server: wa.xunyunnode.sbs
+  port: 25856
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港高速03|BGP|流媒体
+  server: aws-link3.liangxin1.xyz
+  port: 24758
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: o59R2PjAsu1h4KcFjK-EDGP41N2PHZL_Pgk64UcFxh0
+    short-id: a6d87a12
+  servername: osxapps.itunes.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇻🇳 越南03-1B
+  server: xc.xunyunnode.sbs
+  port: 42767
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国04-1H
+  server: layercloud.189.ovh
+  port: 10021
+  type: trojan
+  password: 306e0709-ed65-4374-8b2c-82d107db65f4
+  sni: layercloud.189.ovh
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇹🇭 泰国 1 X1-1A
+  server: slur.izenny.com
+  port: 28675
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇷🇺 公益-俄罗斯1-1E
+  server: els.ylccloud.top
+  port: 16090
+  type: hysteria2
+  password: 04044cdf-58b0-4d47-a9bb-3b9ec804ef6b
+  auth: 04044cdf-58b0-4d47-a9bb-3b9ec804ef6b
+  sni: els.ylccloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾专线01|BGP|流媒体
+  server: aws-linkhy23.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: bilibili-tw.biliimg.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本02丨TIKTOK-1B
+  server: 02.xunyunnode.sbs
+  port: 44447
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国专线02|BGP|流媒体
+  server: aws-linkhy22.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: bilibili-kr2.biliimg.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇮🇱 以色列 1x1-1B
+  server: slur.izenny.com
+  port: 30348
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国 1 X1-1B
+  server: slur.izenny.com
+  port: 43295
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾05
+  server: x02.fafhjkah.xyz
+  port: 32712
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | TW01|1016-1A
+  server: 1.165.66.249
+  port: 10016
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港02-1B
+  server: 02.xunyunnode.sbs
+  port: 45473
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国05
+  server: x02.fafhjkah.xyz
+  port: 32621
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇺🇸 中转美国1 X1-1B
+  server: slur.izenny.com
+  port: 40063
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本05
+  server: x02.fafhjkah.xyz
+  port: 32642
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本03丨NEFLIX-1A
+  server: xc.xunyunnode.sbs
+  port: 26329
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港04-1A
+  server: wa.xunyunnode.sbs
+  port: 35301
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡高速01|BGP|流媒体
+  server: aws-link7.liangxin1.xyz
+  port: 48574
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc
+    short-id: f8f18902
+  servername: www.lamer.com.sg
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国高速02|BGP|流媒体
+  server: aws-link26.liangxin1.xyz
+  port: 36872
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: z53evg6ewSK3gb9bS4KWdgyYU74McOLiRdFqJNpubmQ
+    short-id: ab9a0409
+  servername: download-porter.hoyoverse.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国05
+  server: x02.fafhjkah.xyz
+  port: 32624
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国NO.1-1G
+  server: haa.dashuai.cyou
+  port: 45052
+  type: vmess
+  uuid: b424d974-ce81-49ef-8366-c5622a6cf497
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 IEPL专线 新加坡3-1D
+  server: gzdx.newbee8.me
+  port: 35661
+  type: vmess
+  uuid: a1529d3f-8ee4-4cc9-86e9-dda10dd9b0c3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| TROJAN-1I
+  server: test.api-aws.com
+  port: 443
+  type: trojan
+  password: 56102625-5cc2-428d-9749-034fd91a8db5
+  sni: test.api-aws.com
+  udp: true
+- name: 🏳️ None | 🇦🇺 IEPL专线 澳大利亚2-1A
+  server: gzdx.newbee8.me
+  port: 35666
+  type: vmess
+  uuid: 9eb3bc0f-b4b1-4e65-9502-47e14d5b88ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | Y0-WYK
+  server: sfjmg4.sufujia.top
+  port: 57300
+  type: hysteria2
+  password: f86c101c-be55-48e9-af09-48cddab6806b
+  auth: f86c101c-be55-48e9-af09-48cddab6806b
+  sni: sfjmg4.sufujia.top
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国2-1B
+  server: xdd.dashuai.cyou
+  port: 45067
+  type: vmess
+  uuid: 22811546-a9c9-40f7-93ed-f864e5a02c7b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国高速01|BGP|流媒体
+  server: aws-link25.liangxin1.xyz
+  port: 34578
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc
+    short-id: e534c8be
+  servername: download-porter.hoyoverse.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇺🇸 IEPL专线 美国2-1C
+  server: gzdx.newbee8.me
+  port: 35664
+  type: vmess
+  uuid: 88eea3ee-15f3-44a4-9dde-ae71faf756dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡TJ-1B
+  server: tj.cpddx.club
+  port: 8443
+  type: trojan
+  password: 55ecd398-8da8-43f6-b98f-c28b11a44f35
+  sni: tj.cpddx.club
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: tj.cpddx.club
+  udp: true
+- name: 🏳️ None | 0.5x-1C
+  server: nara.189.ovh
+  port: 10027
+  type: trojan
+  password: eae33fc8-e1b5-4e92-8d3a-bd348d33a7ae
+  sni: nara.189.ovh
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| VMESS WS TLS-1G
+  server: dc6.api-aws.com
+  port: 443
+  type: vmess
+  uuid: 44eb42ac-7117-4db9-a486-0dac36582caf
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: dc6.api-aws.com
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: dc6.api-aws.com
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国1-1A
+  server: haa.dashuai.cyou
+  port: 45066
+  type: vmess
+  uuid: 53d590f8-4825-4039-aa20-10cc0c51d6f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国03-1A
+  server: xc.xunyunnode.sbs
+  port: 32893
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇮🇳 印度1-1A
+  server: haa.dashuai.cyou
+  port: 45074
+  type: vmess
+  uuid: 53d590f8-4825-4039-aa20-10cc0c51d6f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡专线03|BGP|流媒体
+  server: aws-linkhy11.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本高速03|BGP|流媒体
+  server: aws-link15.liangxin1.xyz
+  port: 35457
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3gb-aG6qLCJpEOFrEPZ9qKqLvVPA_ovlu0X1PvjcE0k
+    short-id: 05288db3
+  servername: www.apple.com.cn
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大02-1A
+  server: 02.xunyunnode.sbs
+  port: 57990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡专线02|BGP|流媒体
+  server: aws-linkhy10.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港03丨NEFLIX-1B
+  server: xc.xunyunnode.sbs
+  port: 26200
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国02-1A
+  server: 02.xunyunnode.sbs
+  port: 59406
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾04-1A
+  server: wa.xunyunnode.sbs
+  port: 12009
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本高速02|BGP|流媒体
+  server: aws-link14.liangxin1.xyz
+  port: 25485
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg
+    short-id: 9c5b8c53
+  servername: www.apple.com.cn
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾03-1A
+  server: xc.xunyunnode.sbs
+  port: 28886
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港专线03|BGP|流媒体
+  server: aws-linkhy3.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡03丨NEFLIX-1A
+  server: xc.xunyunnode.sbs
+  port: 18416
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国01-1B
+  server: 01.xunyunnode.sbs
+  port: 17587
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | TW01|1040-1C
+  server: 1.165.92.111
+  port: 10040
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | 🇯🇵 IEPL专线 日本1-1D
+  server: hn3x.newbee8.me
+  port: 22253
+  type: vmess
+  uuid: a1529d3f-8ee4-4cc9-86e9-dda10dd9b0c3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾1-1H
+  server: haa.dashuai.cyou
+  port: 45078
+  type: vmess
+  uuid: 8bda0e2c-868c-4fc1-bc8f-2d12189f9717
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇮🇳 印度2-1B
+  server: xdd.dashuai.cyou
+  port: 45073
+  type: vmess
+  uuid: 22811546-a9c9-40f7-93ed-f864e5a02c7b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国01-1K
+  server: 01.xunyunnode.sbs
+  port: 45823
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港01-1A
+  server: 01.xunyunnode.sbs
+  port: 13058
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡高速03|BGP|流媒体
+  server: aws-link9.liangxin1.xyz
+  port: 23587
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: H66PLLf6HkZwHk4oFqisfTawIvw2cxkEwk8Ue8sHZgA
+    short-id: 19b580ae
+  servername: iosapps.itunes.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇮🇸 冰岛 1 X1-1A
+  server: slur.izenny.com
+  port: 32009
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡01-1C
+  server: 01.xunyunnode.sbs
+  port: 14195
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 0.5x-1H
+  server: netcp4.616626.xyz
+  port: 10027
+  type: trojan
+  password: c384fef6-81bf-44b4-9239-910930fb8bf9
+  sni: netcp4.616626.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡高速02|BGP|流媒体
+  server: aws-link8.liangxin1.xyz
+  port: 39645
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ
+    short-id: 2b3b0b93
+  servername: iosapps.itunes.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大03-1B
+  server: xc.xunyunnode.sbs
+  port: 19707
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国05-1H
+  server: x02.fafhjkah.xyz
+  port: 32623
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本高速01|BGP|流媒体
+  server: aws-link13.liangxin1.xyz
+  port: 36574
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: sDG-KQk1BF7V83-xnmrWDouXxpPd_ZSxKcHrJJzbols
+    short-id: 32a3650d
+  servername: www.apple.com.cn
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | TW01|1023-1A
+  server: 125.229.191.103
+  port: 10023
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a98466e6-ee8c-43c8-bcc3-66e4c58637bc
+  udp: true
+- name: 🏳️ None | TW01|1044-1D
+  server: 36.234.115.197
+  port: 10044
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | TW01|1052-1D
+  server: 114.46.104.119
+  port: 10052
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dd1a303-6505-434b-b90c-f8b85bedb66a
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国04-1A
+  server: wa.xunyunnode.sbs
+  port: 25174
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本03-1D
+  server: cloud.yueyun.de
+  port: 10389
+  type: trojan
+  password: c384fef6-81bf-44b4-9239-910930fb8bf9
+  sni: cloud.yueyun.de
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡解锁 1 X1-1A
+  server: slur.izenny.com
+  port: 36199
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本专线02|BGP|流媒体
+  server: aws-linkhy16.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: bilibili-jp2.biliimg.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇺🇸 US| V2RAY GRPC-1D
+  server: test.api-aws.com
+  port: 8443
+  type: vmess
+  uuid: 9c471a7a-093c-4669-a7b2-650d568dc91d
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: test.api-aws.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: web
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡04丨-1A
+  server: wa.xunyunnode.sbs
+  port: 50764
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国03-1A
+  server: xc.xunyunnode.sbs
+  port: 43421
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大01-1C
+  server: 01.xunyunnode.sbs
+  port: 44306
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本1 X1-1A
+  server: slur.izenny.com
+  port: 53387
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国 专线NO2-1D
+  server: xdd.dashuai.cyou
+  port: 45075
+  type: vmess
+  uuid: ea6bbcbd-3cf3-445a-ad1f-3fbc0d9c9d4a
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡NO.2-1H
+  server: xdd.dashuai.cyou
+  port: 45055
+  type: vmess
+  uuid: 8bda0e2c-868c-4fc1-bc8f-2d12189f9717
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾02-1B
+  server: 02.xunyunnode.sbs
+  port: 43592
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本专线03|BGP|流媒体
+  server: aws-linkhy17.liangxin1.xyz
+  port: 60000
+  type: hysteria2
+  password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  auth: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971
+  sni: bilibili-jp3.biliimg.com
+  skip-cert-verify: true
+  ports: 60000-65530
+  udp: true
+- name: 🏳️ None | 🇺🇸 公益-美国1-1D
+  server: mf1.ylccloud.top
+  port: 16090
+  type: hysteria2
+  password: d78c5652-f715-4a7d-9737-ce432c360e33
+  auth: d78c5652-f715-4a7d-9737-ce432c360e33
+  sni: mf1.ylccloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇫🇷 法国2-1F
+  server: xdd.dashuai.cyou
+  port: 45071
+  type: vmess
+  uuid: 856a7fcc-f0de-4536-86f3-3965bd37d950
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大1-1H
+  server: haa.dashuai.cyou
+  port: 45064
+  type: vmess
+  uuid: 8bda0e2c-868c-4fc1-bc8f-2d12189f9717
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡H2-1H
+  server: h22.cpddx.club
+  port: 8443
+  type: hysteria2
+  password: df58ff3d-5557-446d-ad71-d3167a373aff
+  auth: df58ff3d-5557-446d-ad71-d3167a373aff
+  sni: h22.cpddx.club
+  up: 200
+  down: 1000
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾2-1E
+  server: xdd.dashuai.cyou
+  port: 45077
+  type: vmess
+  uuid: ab8b065c-7037-4fae-9095-4079ba8808fc
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港高速01|BGP|流媒体
+  server: aws-link1.liangxin1.xyz
+  port: 35248
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
+    short-id: c8c0f951
+  servername: www.lamer.com.hk
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国04-1I
+  server: wa.xunyunnode.sbs
+  port: 22041
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大05
+  server: x02.fafhjkah.xyz
+  port: 32625
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本02-1E
+  server: vpsjp.yueyun.de
+  port: 13036
+  type: trojan
+  password: 0c091076-1194-41b2-a2d5-abfed2c84eac
+  sni: vpsjp.yueyun.de
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本01-1E
+  server: greenjp2.yueyun.de
+  port: 11030
+  type: trojan
+  password: 0c091076-1194-41b2-a2d5-abfed2c84eac
+  sni: greenjp2.yueyun.de
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本NO.2-1G
+  server: xdd.dashuai.cyou
+  port: 45057
+  type: vmess
+  uuid: b424d974-ce81-49ef-8366-c5622a6cf497
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港05
+  server: x02.fafhjkah.xyz
+  port: 32601
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe483a95-2f53-4a73-adca-560a6a5c432c
+  udp: true
+- name: 🏳️ None | 🇻🇳 越南04-1B
+  server: wa.xunyunnode.sbs
+  port: 43680
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇹🇷 土耳其 1 X1-1B
+  server: slur.izenny.com
+  port: 54693
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇮🇳 印度 1 X1-1B
+  server: slur.izenny.com
+  port: 17254
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾01-1B
+  server: 01.xunyunnode.sbs
+  port: 16755
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇲🇽 墨西哥 1 X1-1A
+  server: slur.izenny.com
+  port: 48907
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7ebf0556-f570-4b69-82c1-3652a08e8da2
+  udp: true
+- name: 🏳️ None | 🇮🇳 IEPL专线 印度1-1B
+  server: hn3x.newbee8.me
+  port: 22256
+  type: vmess
+  uuid: 744c9c75-1df9-4e5a-b467-dcaecd2b76b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 IEPL专线 美国1-1B
+  server: hn3x.newbee8.me
+  port: 22255
+  type: vmess
+  uuid: 744c9c75-1df9-4e5a-b467-dcaecd2b76b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大04-1B
+  server: wa.xunyunnode.sbs
+  port: 50737
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 684125cf-72b0-45a1-9879-af56d0b1bd00
+  udp: true
+- name: 🏳️ None | 🇹🇼 台湾解锁 1 X1-1B
+  server: slur.izenny.com
+  port: 14187
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4c89aa2f-8f4e-4bf9-bc03-13a4a5f5d0c4
+  udp: true
+- name: 🏳️ None | 🇸🇬 免费-新加坡1-1B
+  server: sfjxjp.sufujia.top
+  port: 57300
+  type: hysteria2
+  password: 6107f525-843d-485b-b6dd-46ffb0fcf58c
+  auth: 6107f525-843d-485b-b6dd-46ffb0fcf58c
+  sni: sfjxjp.sufujia.top
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️ None | TW01|2007-1C
+  server: 1.170.17.63
+  port: 10087
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2586651c-393e-43b0-b76a-0893c8f122a6
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港高速02|BGP|流媒体
+  server: aws-link2.liangxin1.xyz
+  port: 32725
+  type: vless
+  uuid: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e97
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IdgzmrHX6nbZEVjox3WcxBE07DwXE9YIa8ZyYZuMWEw
+    short-id: 784cf058
+  servername: osxapps.itunes.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国02-1I
+  server: 02.xunyunnode.sbs
+  port: 37699
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30826a6d-36ff-43b7-a360-67c9b5acca4e
+  udp: true
+- name: 🏳️ None | 🇯🇵 IEPL专线 日本3-1B
+  server: gzdx.newbee8.me
+  port: 35662
+  type: vmess
+  uuid: 744c9c75-1df9-4e5a-b467-dcaecd2b76b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 IEPL专线 美国原生1-1A
+  server: hn3x.newbee8.me
+  port: 22257
+  type: vmess
+  uuid: 9eb3bc0f-b4b1-4e65-9502-47e14d5b88ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇦🇺 澳大利亚原生2-1G
+  server: xdd.dashuai.cyou
+  port: 45063
+  type: vmess
+  uuid: b424d974-ce81-49ef-8366-c5622a6cf497
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 IEPL专线 香港1-1A
+  server: hn3x.newbee8.me
+  port: 22250
+  type: vmess
+  uuid: 9eb3bc0f-b4b1-4e65-9502-47e14d5b88ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国 专线NO1-1H
+  server: haa.dashuai.cyou
+  port: 45076
+  type: vmess
+  uuid: 8bda0e2c-868c-4fc1-bc8f-2d12189f9717
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇫🇷 法国1-1F
+  server: haa.dashuai.cyou
+  port: 45072
+  type: vmess
+  uuid: 856a7fcc-f0de-4536-86f3-3965bd37d950
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡NO.1-1C
+  server: haa.dashuai.cyou
+  port: 45054
+  type: vmess
+  uuid: 1ca6ff15-b62b-4138-a550-957ea52720ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇺🇸 美国NO.2-1F
+  server: xdd.dashuai.cyou
+  port: 45053
+  type: vmess
+  uuid: 856a7fcc-f0de-4536-86f3-3965bd37d950
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇮🇳 IEPL专线 印度3-1D
+  server: gzdx.newbee8.me
+  port: 35665
+  type: vmess
+  uuid: a1529d3f-8ee4-4cc9-86e9-dda10dd9b0c3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本NO.1-1A
+  server: haa.dashuai.cyou
+  port: 45056
+  type: vmess
+  uuid: 53d590f8-4825-4039-aa20-10cc0c51d6f2
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 IEPL专线 新加坡1-1D
+  server: hn3x.newbee8.me
+  port: 22252
+  type: vmess
+  uuid: a1529d3f-8ee4-4cc9-86e9-dda10dd9b0c3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 IEPL专线 香港3-1A
+  server: gzdx.newbee8.me
+  port: 35660
+  type: vmess
+  uuid: 9eb3bc0f-b4b1-4e65-9502-47e14d5b88ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港NO.2-1B
+  server: xdd.dashuai.cyou
+  port: 45051
+  type: vmess
+  uuid: 22811546-a9c9-40f7-93ed-f864e5a02c7b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+proxy-groups:
+- name: MAIN
+  type: select
+  proxies:
+  - 🏳️ None | TW01|1021-1H
+  - 🏳️ None | TW01|1064-1C
+  - 🏳️ None | TW01|1068-1B
+  - 🏳️ None | TW01|1007-1E
+  - 🏳️ None | TW01|1033-1H
+  - 🏳️ None | 🇭🇰 香港01|BGP专线|VIP01-2S
+  - 🏳️ None | 🇹🇼 台湾01|BGP专线|SVIP03-1N
+  - 🏳️ None | TW01|1019-1F
+  - 🏳️ None | 🇭🇰 香港04|BGP专线|SVIP03-3G
+  - 🏳️ None | TW01|1027-1G
+  - 🏳️ None | TW01|2067-1B
+  - 🏳️ None | 🇺🇸 US| V2RAY TCP-1P
+  - 🏳️ None | TW01|1030-1B
+  - 🏳️ None | TW01|2034-1F
+  - 🏳️ None | TW01|2031-1D
+  - 🏳️ None | TW01|2064-1H
+  - 🏳️ None | TW01|1060-1B
+  - 🏳️ None | TW01|2069-1F
+  - 🏳️ None | TW01|1036-1E
+  - 🏳️ None | TW01|1069-1A
+  - 🏳️ None | TW01|1070-1G
+  - 🏳️ None | TW01|2037-1A
+  - 🏳️ None | 🇺🇸 美国-纽约-001-1G
+  - 🏳️ None | TW01|2003-1E
+  - 🏳️ None | TW01|2059-1A
+  - 🏳️ None | TW01|1029-1B
+  - 🏳️ None | TW01|2054-1D
+  - 🏳️ None | TW01|2065-1B
+  - 🏳️ None | TW01|1051-1F
+  - 🏳️ None | TW01|2025-1C
+  - 🏳️ None | TW01|2019-1A
+  - 🏳️ None | TW01|2042-1A
+  - 🏳️ None | 🇺🇸 US| VMESS WEBSOCKET-1F
+  - 🏳️ None | TW01|2055-1C
+  - 🏳️ None | TW01|2016-1F
+  - 🏳️ None | TW01|1061-1B
+  - 🏳️ None | TW01|2072-1C
+  - 🏳️ None | TW01|2012-1B
+  - 🏳️ None | TW01|1031-1B
+  - 🏳️ None | TW01|2068-1C
+  - 🏳️ None | TW01|2011-1C
+  - 🏳️ None | TW01|1056-1G
+  - 🏳️ None | 🇺🇸 美国-拉斯维加斯-002-1N
+  - 🏳️ None | TW01|2039-1H
+  - 🏳️ None | TW01|2017-1B
+  - 🏳️ None | TW01|2041-1C
+  - 🏳️ None | TW01|2044-1H
+  - 🏳️ None | 🇬🇧 英国01|流媒体
+  - 🏳️ None | TW01|2020-1C
+  - 🏳️ None | TW01|2001-1F
+  - 🏳️ None | TW01|1080-1H
+  - 🏳️ None | TW01|1065-1A
+  - 🏳️ None | TW01|2036-1C
+  - 🏳️ None | TW01|1004-1C
+  - 🏳️ None | TW01|2061-1C
+  - 🏳️ None | TW01|1057-1B
+  - 🏳️ None | TW01|1002-1C
+  - 🏳️ None | TW01|2052-1A
+  - 🏳️ None | TW01|1074-1B
+  - 🏳️ None | TW01|1054-1G
+  - 🏳️ None | TW01|2021-1H
+  - 🏳️ None | TW01|1009-1C
+  - 🏳️ None | TW01|1041-1A
+  - 🏳️ None | 🇺🇸 美国02|流媒体
+  - 🏳️ None | TW01|2009-1E
+  - 🏳️ None | TW01|2070-1G
+  - 🏳️ None | TW01|2013-1D
+  - 🏳️ None | TW01|1005-1E
+  - 🏳️ None | TW01|2002-1B
+  - 🏳️ None | 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  - 🏳️ None | TW01|2060-1A
+  - 🏳️ None | 🇺🇸 US| SHADOWSOCKS-1B
+  - 🏳️ None | TW01|1018-1H
+  - 🏳️ None | TW01|1047-1D
+  - 🏳️ None | TW01|1010-1C
+  - 🏳️ None | TW01|1043-1A
+  - 🏳️ None | TW01|2023-1F
+  - 🏳️ None | TW01|1053-1D
+  - 🏳️ None | TW01|2038-1B
+  - 🏳️ None | TW01|1020-1G
+  - 🏳️ None | TW01|1038-1H
+  - 🏳️ None | TW01|2063-1B
+  - 🏳️ None | TW01|1003-1D
+  - 🏳️ None | TW01|1073-1E
+  - 🏳️ None | TW01|2004-1H
+  - 🏳️ None | TW01|1012-1B
+  - 🏳️ None | TW01|2030-1G
+  - 🏳️ None | 🇺🇸 美国高速01|流媒体
+  - 🏳️ None | TW01|1042-1D
+  - 🏳️ None | TW01|1067-1G
+  - 🏳️ None | TW01|1025-1E
+  - 🏳️ None | TW01|1050-1F
+  - 🏳️ None | TW01|2018-1C
+  - 🏳️ None | TW01|1075-1B
+  - 🏳️ None | TW01|2029-1B
+  - 🏳️ None | TW01|2043-1H
+  - 🏳️ None | TW01|2062-1B
+  - 🏳️ None | TW01|1077-1B
+  - 🏳️ None | TW01|1071-1A
+  - 🏳️ None | TW01|2057-1A
+  - 🏳️ None | TW01|1055-1A
+  - 🏳️ None | TW01|1049-1F
+  - 🏳️ None | TW01|2058-1C
+  - 🏳️ None | TW01|2049-1B
+  - 🏳️ None | 🇹🇼 台湾高速节点3
+  - 🏳️ None | 🇺🇸 美国01|流媒体
+  - 🏳️ None | 🇺🇸 美国-拉斯维加斯-HY-002-1R
+  - 🏳️ None | TW01|2051-1G
+  - 🏳️ None | TW01|1078-1F
+  - 🏳️ None | TW01|1014-1C
+  - 🏳️ None | TW01|1048-1E
+  - 🏳️ None | 🇨🇳 中国联通节点1
+  - 🏳️ None | TW01|2053-1B
+  - 🏳️ None | TW01|2005-1C
+  - 🏳️ None | TW01|2040-1E
+  - 🏳️ None | TW01|2032-1E
+  - 🏳️ None | TW01|2027-1A
+  - 🏳️ None | TW01|2015-1F
+  - 🏳️ None | TW01|2035-1F
+  - 🏳️ None | TW01|1001-1A
+  - 🏳️ None | TW01|2071-1E
+  - 🏳️ None | TW01|2046-1B
+  - 🏳️ None | TW01|2050-1A
+  - 🏳️ None | TW01|2066-1G
+  - 🏳️ None | TW01|1034-1H
+  - 🏳️ None | TW01|2028-1F
+  - 🏳️ None | TW01|1076-1E
+  - 🏳️ None | TW01|2010-1B
+  - 🏳️ None | TW01|1039-1C
+  - 🏳️ None | TW01|1046-1A
+  - 🏳️ None | TW01|2048-1G
+  - 🏳️ None | TW01|1058-1F
+  - 🏳️ None | TW01|1011-1F
+  - 🏳️ None | TW01|1008-1C
+  - 🏳️ None | TW01|2026-1C
+  - 🏳️ None | TW01|1035-1E
+  - 🏳️ None | TW01|1017-1C
+  - 🏳️ None | TW01|1066-1C
+  - 🏳️ None | TW01|1072-1G
+  - 🏳️ None | TW01|2024-1B
+  - 🏳️ None | 🇺🇸 美国高速节点1
+  - 🏳️ None | 🇹🇼 台湾高速节点
+  - 🏳️ None | TW01|2056-1B
+  - 🏳️ None | TW01|1022-1E
+  - 🏳️ None | TW01|2045-1C
+  - 🏳️ None | TW01|1026-1D
+  - 🏳️ None | TW01|1015-1G
+  - 🏳️ None | TW01|1006-1A
+  - 🏳️ None | TW01|1059-1D
+  - 🏳️ None | TW01|1013-1F
+  - 🏳️ None | TW01|2014-1E
+  - 🏳️ None | TW01|1032-1E
+  - 🏳️ None | 🇺🇸 美国-纽约-HY-001-1O
+  - 🏳️ None | TW01|1062-1G
+  - 🏳️ None | TW01|1063-1B
+  - 🏳️ None | TW01|2033-1E
+  - 🏳️ None | TW01|1037-1F
+  - 🏳️ None | TW01|1028-1E
+  - 🏳️ None | TW01|2006-1D
+  - 🏳️ None | TW01|1079-1B
+  - 🏳️ None | 🇹🇼 台湾高速节点2
+  - 🏳️ None | 🇹🇼 台湾03|BGP专线|SVIP03-1A
+  - 🏳️ None | TW01|2022-1G
+  - 🏳️ None | TW01|2047-1F
+  - 🏳️ None | TW01|2008-1C
+  - 🏳️ None | TW01|1045-1A
+  - 🏳️ None | TW01|1024-1D
+  - 🏳️ None | 🇺🇸 US| VLESS GRPC-1A
+  - 🏳️ None | 🇦🇺 澳大利亚原生1-1A
+  - 🏳️ None | 🇰🇷 韩国专线01|BGP|流媒体
+  - 🏳️ None | 🇺🇸 美国05-1C
+  - 🏳️ None | 🇭🇰 香港专线02|BGP|流媒体
+  - 🏳️ None | 🇸🇬 新加坡05
+  - 🏳️ None | 🇻🇳 越南02-1A
+  - 🏳️ None | 🇸🇬 新加坡02丨TIKTOK-1B
+  - 🏳️ None | 🇧🇷 巴西 1 X1-1A
+  - 🏳️ None | 🇨🇦 加拿大2-1D
+  - 🏳️ None | 🇭🇰 香港-V4|02-1D
+  - 🏳️ None | 🇺🇸 IEPL专线 美国原生2-1B
+  - 🏳️ None | 🇦🇺 IEPL专线 澳大利亚1-1B
+  - 🏳️ None | 🇻🇳 越南01-1A
+  - 🏳️ None | 🇹🇼 台湾高速01|BGP|流媒体
+  - 🏳️ None | 🇯🇵 日本04丨-1A
+  - 🏳️ None | 🇭🇰 香港高速03|BGP|流媒体
+  - 🏳️ None | 🇻🇳 越南03-1B
+  - 🏳️ None | 🇺🇸 美国04-1H
+  - 🏳️ None | 🇹🇭 泰国 1 X1-1A
+  - 🏳️ None | 🇷🇺 公益-俄罗斯1-1E
+  - 🏳️ None | 🇹🇼 台湾专线01|BGP|流媒体
+  - 🏳️ None | 🇯🇵 日本02丨TIKTOK-1B
+  - 🏳️ None | 🇰🇷 韩国专线02|BGP|流媒体
+  - 🏳️ None | 🇮🇱 以色列 1x1-1B
+  - 🏳️ None | 🇰🇷 韩国 1 X1-1B
+  - 🏳️ None | 🇹🇼 台湾05
+  - 🏳️ None | TW01|1016-1A
+  - 🏳️ None | 🇭🇰 香港02-1B
+  - 🏳️ None | 🇰🇷 韩国05
+  - 🏳️ None | 🇺🇸 中转美国1 X1-1B
+  - 🏳️ None | 🇯🇵 日本05
+  - 🏳️ None | 🇯🇵 日本03丨NEFLIX-1A
+  - 🏳️ None | 🇭🇰 香港04-1A
+  - 🏳️ None | 🇸🇬 新加坡高速01|BGP|流媒体
+  - 🏳️ None | 🇰🇷 韩国高速02|BGP|流媒体
+  - 🏳️ None | 🇬🇧 英国05
+  - 🏳️ None | 🇺🇸 美国NO.1-1G
+  - 🏳️ None | 🇸🇬 IEPL专线 新加坡3-1D
+  - 🏳️ None | 🇺🇸 US| TROJAN-1I
+  - 🏳️ None | 🇦🇺 IEPL专线 澳大利亚2-1A
+  - 🏳️ None | Y0-WYK
+  - 🏳️ None | 🇬🇧 英国2-1B
+  - 🏳️ None | 🇰🇷 韩国高速01|BGP|流媒体
+  - 🏳️ None | 🇺🇸 IEPL专线 美国2-1C
+  - 🏳️ None | 🇸🇬 新加坡TJ-1B
+  - 🏳️ None | 0.5x-1C
+  - 🏳️ None | 🇺🇸 US| VMESS WS TLS-1G
+  - 🏳️ None | 🇬🇧 英国1-1A
+  - 🏳️ None | 🇺🇸 美国03-1A
+  - 🏳️ None | 🇮🇳 印度1-1A
+  - 🏳️ None | 🇸🇬 新加坡专线03|BGP|流媒体
+  - 🏳️ None | 🇯🇵 日本高速03|BGP|流媒体
+  - 🏳️ None | 🇨🇦 加拿大02-1A
+  - 🏳️ None | 🇸🇬 新加坡专线02|BGP|流媒体
+  - 🏳️ None | 🇭🇰 香港03丨NEFLIX-1B
+  - 🏳️ None | 🇬🇧 英国02-1A
+  - 🏳️ None | 🇹🇼 台湾04-1A
+  - 🏳️ None | 🇯🇵 日本高速02|BGP|流媒体
+  - 🏳️ None | 🇹🇼 台湾03-1A
+  - 🏳️ None | 🇭🇰 香港专线03|BGP|流媒体
+  - 🏳️ None | 🇸🇬 新加坡03丨NEFLIX-1A
+  - 🏳️ None | 🇬🇧 英国01-1B
+  - 🏳️ None | TW01|1040-1C
+  - 🏳️ None | 🇯🇵 IEPL专线 日本1-1D
+  - 🏳️ None | 🇹🇼 台湾1-1H
+  - 🏳️ None | 🇮🇳 印度2-1B
+  - 🏳️ None | 🇺🇸 美国01-1K
+  - 🏳️ None | 🇭🇰 香港01-1A
+  - 🏳️ None | 🇸🇬 新加坡高速03|BGP|流媒体
+  - 🏳️ None | 🇮🇸 冰岛 1 X1-1A
+  - 🏳️ None | 🇸🇬 新加坡01-1C
+  - 🏳️ None | 0.5x-1H
+  - 🏳️ None | 🇸🇬 新加坡高速02|BGP|流媒体
+  - 🏳️ None | 🇨🇦 加拿大03-1B
+  - 🏳️ None | 🇺🇸 美国05-1H
+  - 🏳️ None | 🇯🇵 日本高速01|BGP|流媒体
+  - 🏳️ None | TW01|1023-1A
+  - 🏳️ None | TW01|1044-1D
+  - 🏳️ None | TW01|1052-1D
+  - 🏳️ None | 🇬🇧 英国04-1A
+  - 🏳️ None | 🇯🇵 日本03-1D
+  - 🏳️ None | 🇸🇬 新加坡解锁 1 X1-1A
+  - 🏳️ None | 🇯🇵 日本专线02|BGP|流媒体
+  - 🏳️ None | 🇺🇸 US| V2RAY GRPC-1D
+  - 🏳️ None | 🇸🇬 新加坡04丨-1A
+  - 🏳️ None | 🇬🇧 英国03-1A
+  - 🏳️ None | 🇨🇦 加拿大01-1C
+  - 🏳️ None | 🇯🇵 日本1 X1-1A
+  - 🏳️ None | 🇰🇷 韩国 专线NO2-1D
+  - 🏳️ None | 🇸🇬 新加坡NO.2-1H
+  - 🏳️ None | 🇹🇼 台湾02-1B
+  - 🏳️ None | 🇯🇵 日本专线03|BGP|流媒体
+  - 🏳️ None | 🇺🇸 公益-美国1-1D
+  - 🏳️ None | 🇫🇷 法国2-1F
+  - 🏳️ None | 🇨🇦 加拿大1-1H
+  - 🏳️ None | 🇸🇬 新加坡H2-1H
+  - 🏳️ None | 🇹🇼 台湾2-1E
+  - 🏳️ None | 🇭🇰 香港高速01|BGP|流媒体
+  - 🏳️ None | 🇺🇸 美国04-1I
+  - 🏳️ None | 🇨🇦 加拿大05
+  - 🏳️ None | 🇯🇵 日本02-1E
+  - 🏳️ None | 🇯🇵 日本01-1E
+  - 🏳️ None | 🇯🇵 日本NO.2-1G
+  - 🏳️ None | 🇭🇰 香港05
+  - 🏳️ None | 🇻🇳 越南04-1B
+  - 🏳️ None | 🇹🇷 土耳其 1 X1-1B
+  - 🏳️ None | 🇮🇳 印度 1 X1-1B
+  - 🏳️ None | 🇹🇼 台湾01-1B
+  - 🏳️ None | 🇲🇽 墨西哥 1 X1-1A
+  - 🏳️ None | 🇮🇳 IEPL专线 印度1-1B
+  - 🏳️ None | 🇺🇸 IEPL专线 美国1-1B
+  - 🏳️ None | 🇨🇦 加拿大04-1B
+  - 🏳️ None | 🇹🇼 台湾解锁 1 X1-1B
+  - 🏳️ None | 🇸🇬 免费-新加坡1-1B
+  - 🏳️ None | TW01|2007-1C
+  - 🏳️ None | 🇭🇰 香港高速02|BGP|流媒体
+  - 🏳️ None | 🇺🇸 美国02-1I
+  - 🏳️ None | 🇯🇵 IEPL专线 日本3-1B
+  - 🏳️ None | 🇺🇸 IEPL专线 美国原生1-1A
+  - 🏳️ None | 🇦🇺 澳大利亚原生2-1G
+  - 🏳️ None | 🇭🇰 IEPL专线 香港1-1A
+  - 🏳️ None | 🇰🇷 韩国 专线NO1-1H
+  - 🏳️ None | 🇫🇷 法国1-1F
+  - 🏳️ None | 🇸🇬 新加坡NO.1-1C
+  - 🏳️ None | 🇺🇸 美国NO.2-1F
+  - 🏳️ None | 🇮🇳 IEPL专线 印度3-1D
+  - 🏳️ None | 🇯🇵 日本NO.1-1A
+  - 🏳️ None | 🇸🇬 IEPL专线 新加坡1-1D
+  - 🏳️ None | 🇭🇰 IEPL专线 香港3-1A
+  - 🏳️ None | 🇭🇰 香港NO.2-1B
+rules:
+- MATCH,MAIN

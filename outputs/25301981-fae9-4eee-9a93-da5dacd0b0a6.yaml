@@ -1,0 +1,423 @@
+mixed-port: 7890
+mode: rule
+proxies:
+- name: 🏳️ None | 🇫🇷 法国S01
+  server: jf1w2d1.fr01-ae5.entry.v51124-6.qpon
+  port: 20069
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本1-Ver.7
+  server: b3f5f-g06.jp01-nn-vm0.entry.fr0528.art
+  port: 21586
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S11 | IEPL
+  server: wddvid1.hk11-vm5.entry.v51124-6.qpon
+  port: 579
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tutorial/iphone13.m3u8
+    headers:
+      Host: speedtest-bgp-01-11.entry-0.chinasnow.net
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S07 | x0.8
+  server: wg07od1.jp07-ae5.entry.v51124-6.qpon
+  port: 14009
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S08 | x0.8
+  server: mgepjd1.hk08-ae5.entry.v51124-6.qpon
+  port: 18647
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇷🇺 俄罗斯S01
+  server: x0mo7d1.ru01-ae5.entry.v51124-6.qpon
+  port: 20034
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大S01
+  server: irf5fd1.ca01-ae5.entry.v51124-6.qpon
+  port: 20059
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国S01
+  server: k8040d1.gb01-ae5.entry.v51124-6.qpon
+  port: 20024
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S10 | IEPL
+  server: 801ljd1.jp10-ae5.entry.v51124-6.qpon
+  port: 16528
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡S02
+  server: fp8wcd1.sg02-ae5.entry.v51124-6.qpon
+  port: 20079
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇦🇺 澳大利亚S01
+  server: v7lugd1.au01-ae5.entry.v51124-6.qpon
+  port: 20064
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本2-Ver.8
+  server: ydrmn-g06.jp02-e3-vm0.entry.fr0528.art
+  port: 11778
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本3-Ver.7
+  server: fp6kw-g06.jp03-j7-vm0.entry.fr0528.art
+  port: 21586
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S06 | x0.8
+  server: kk9abd1.hk06-ae5.entry.v51124-6.qpon
+  port: 1417
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡S03 | IEPL | x2
+  server: jvv08d1.sg03-ae5.entry.v51124-6.qpon
+  port: 20084
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇺🇦 乌克兰S01
+  server: k6yecd1.ua01-ae5.entry.v51124-6.qpon
+  port: 20074
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S06 | 下载专用 | x0.01
+  server: e93q6-g06.jp06-vm5.entry.rtysjur.quest
+  port: 667
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S10 | IEPL
+  server: ify3vd1.hk10-vm5.entry.v51124-6.qpon
+  port: 13487
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: speedtest-bgp-01-10.entry-0.chinasnow.net
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S01
+  server: 960sad1.hk01-ae5.entry.v51124-6.qpon
+  port: 19276
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S11 | IEPL
+  server: mjmpad1.jp11-ae5.entry.v51124-6.qpon
+  port: 17745
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇮🇳 印度S01
+  server: z8ucud1.in01-ae5.entry.v51124-6.qpon
+  port: 20049
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S04 | IEPL
+  server: 9rbqud1.hk04-ae5.entry.v51124-6.qpon
+  port: 808
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S05 | 下载专用 | x0.01
+  server: evijx-g06.jp05-vm5.entry.rtysjur.quest
+  port: 64659
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本4-Ver.8
+  server: qj70x-g06.jp04-1d-vm0.entry.fr0528.art
+  port: 449
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇨🇳 台湾S01 | IEPL | x2
+  server: y7nnyd1.tw01-ae5.entry.v51124-6.qpon
+  port: 20009
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇩🇪 德国S01
+  server: ppyh2d1.de01-ae5.entry.v51124-6.qpon
+  port: 20054
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S09 | IEPL
+  server: w7lh4d1.jp09-ae5.entry.v51124-6.qpon
+  port: 11162
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S02 | IEPL
+  server: kon1jd1.jp02-ae5.entry.v51124-6.qpon
+  port: 487
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇹🇷 土耳其S01
+  server: o55vwd1.tr01-ae5.entry.v51124-6.qpon
+  port: 20039
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本6-Ver.8
+  server: 70767-g06.jp06-jz-vm0.entry.fr0528.art
+  port: 28788
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本7-Ver.2
+  server: 1rku5-g06.jp07-sh-vm0.entry.fr0528.art
+  port: 28788
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本5-Ver.9
+  server: m6ep0-g06.jp05-h6-vm0.entry.fr0528.art
+  port: 46487
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S03 | IEPL
+  server: 8ccd3d1.jp03-ae5.entry.v51124-6.qpon
+  port: 492
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡S01
+  server: 7697ld1.sg01-ae5.entry.v51124-6.qpon
+  port: 20004
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S03 | IEPL
+  server: altipd1.hk03-ae5.entry.v51124-6.qpon
+  port: 764
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇦🇷 阿根廷S01
+  server: 7viptd1.ar01-ae5.entry.v51124-6.qpon
+  port: 20029
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S09 | IEPL
+  server: 7kvhnd1.hk09-vm5.entry.v51124-6.qpon
+  port: 15269
+  type: vmess
+  uuid: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇺🇲 美国S02
+  server: lo0hxd1.us02-ae5.entry.v51124-6.qpon
+  port: 20019
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国S01
+  server: 39jzqd1.kr01-ae5.entry.v51124-6.qpon
+  port: 20044
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇺🇲 美国S01
+  server: e3dknd1.us01-ae5.entry.v51124-6.qpon
+  port: 20014
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S02 | IEPL
+  server: ludc5d1.hk02-ae5.entry.v51124-6.qpon
+  port: 14564
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S07 | x0.8
+  server: fdyddd1.hk07-ae5.entry.v51124-6.qpon
+  port: 1424
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S01
+  server: nyc50d1.jp01-ae5.entry.v51124-6.qpon
+  port: 477
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港S05 | IEPL
+  server: 6nc1kd1.hk05-ae5.entry.v51124-6.qpon
+  port: 1816
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S08 | x0.8
+  server: 7dg96d1.jp08-ae5.entry.v51124-6.qpon
+  port: 12547
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本S04 | IEPL
+  server: 5l1r4d1.jp04-ae5.entry.v51124-6.qpon
+  port: 497
+  type: ss
+  cipher: aes-256-gcm
+  password: f94ea7cc-8919-3b2a-9073-edcc54de5cb4
+  udp: true
+proxy-groups:
+- name: MAIN
+  type: select
+  proxies:
+  - 🏳️ None | 🇫🇷 法国S01
+  - 🏳️ None | 🇯🇵 免费-日本1-Ver.7
+  - 🏳️ None | 🇭🇰 香港S11 | IEPL
+  - 🏳️ None | 🇯🇵 日本S07 | x0.8
+  - 🏳️ None | 🇭🇰 香港S08 | x0.8
+  - 🏳️ None | 🇷🇺 俄罗斯S01
+  - 🏳️ None | 🇨🇦 加拿大S01
+  - 🏳️ None | 🇬🇧 英国S01
+  - 🏳️ None | 🇯🇵 日本S10 | IEPL
+  - 🏳️ None | 🇸🇬 新加坡S02
+  - 🏳️ None | 🇦🇺 澳大利亚S01
+  - 🏳️ None | 🇯🇵 免费-日本2-Ver.8
+  - 🏳️ None | 🇯🇵 免费-日本3-Ver.7
+  - 🏳️ None | 🇭🇰 香港S06 | x0.8
+  - 🏳️ None | 🇸🇬 新加坡S03 | IEPL | x2
+  - 🏳️ None | 🇺🇦 乌克兰S01
+  - 🏳️ None | 🇯🇵 日本S06 | 下载专用 | x0.01
+  - 🏳️ None | 🇭🇰 香港S10 | IEPL
+  - 🏳️ None | 🇭🇰 香港S01
+  - 🏳️ None | 🇯🇵 日本S11 | IEPL
+  - 🏳️ None | 🇮🇳 印度S01
+  - 🏳️ None | 🇭🇰 香港S04 | IEPL
+  - 🏳️ None | 🇯🇵 日本S05 | 下载专用 | x0.01
+  - 🏳️ None | 🇯🇵 免费-日本4-Ver.8
+  - 🏳️ None | 🇨🇳 台湾S01 | IEPL | x2
+  - 🏳️ None | 🇩🇪 德国S01
+  - 🏳️ None | 🇯🇵 日本S09 | IEPL
+  - 🏳️ None | 🇯🇵 日本S02 | IEPL
+  - 🏳️ None | 🇹🇷 土耳其S01
+  - 🏳️ None | 🇯🇵 免费-日本6-Ver.8
+  - 🏳️ None | 🇯🇵 免费-日本7-Ver.2
+  - 🏳️ None | 🇯🇵 免费-日本5-Ver.9
+  - 🏳️ None | 🇯🇵 日本S03 | IEPL
+  - 🏳️ None | 🇸🇬 新加坡S01
+  - 🏳️ None | 🇭🇰 香港S03 | IEPL
+  - 🏳️ None | 🇦🇷 阿根廷S01
+  - 🏳️ None | 🇭🇰 香港S09 | IEPL
+  - 🏳️ None | 🇺🇲 美国S02
+  - 🏳️ None | 🇰🇷 韩国S01
+  - 🏳️ None | 🇺🇲 美国S01
+  - 🏳️ None | 🇭🇰 香港S02 | IEPL
+  - 🏳️ None | 🇭🇰 香港S07 | x0.8
+  - 🏳️ None | 🇯🇵 日本S01
+  - 🏳️ None | 🇭🇰 香港S05 | IEPL
+  - 🏳️ None | 🇯🇵 日本S08 | x0.8
+  - 🏳️ None | 🇯🇵 日本S04 | IEPL
+rules:
+- MATCH,MAIN

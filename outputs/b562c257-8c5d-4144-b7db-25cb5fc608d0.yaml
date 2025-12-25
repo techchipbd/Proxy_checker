@@ -1,0 +1,423 @@
+mixed-port: 7890
+mode: rule
+proxies:
+- name: 🏳️ None | 🇯🇵 日本A07 | x0.8
+  server: ot8bned.jp07-ae5.entry.v51124-5.qpon
+  port: 14008
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇰🇷 韩国A01
+  server: qhkdced.kr01-ae5.entry.v51124-5.qpon
+  port: 20043
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡A03 | IEPL | x2
+  server: ngza3ed.sg03-ae5.entry.v51124-5.qpon
+  port: 20083
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A02 | IEPL
+  server: vt04bed.hk02-ae5.entry.v51124-5.qpon
+  port: 14563
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A03 | IEPL
+  server: va6sled.jp03-ae5.entry.v51124-5.qpon
+  port: 491
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A06 | 下载专用 | x0.01
+  server: lg3q7-g05.jp06-vm5.entry.rtysjur.quest
+  port: 666
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A11 | IEPL
+  server: xwc1ped.hk11-vm5.entry.v51124-5.qpon
+  port: 578
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tutorial/iphone13.m3u8
+    headers:
+      Host: speedtest-bgp-01-11.entry-0.chinasnow.net
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本5-Ver.9
+  server: 72eb2-g05.jp05-h6-vm0.entry.fr0528.art
+  port: 46486
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A08 | x0.8
+  server: 7rq9ked.hk08-ae5.entry.v51124-5.qpon
+  port: 18646
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A09 | IEPL
+  server: en86ded.hk09-vm5.entry.v51124-5.qpon
+  port: 15268
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本6-Ver.8
+  server: qdwy5-g05.jp06-jz-vm0.entry.fr0528.art
+  port: 28787
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A11 | IEPL
+  server: vf1qged.jp11-ae5.entry.v51124-5.qpon
+  port: 17744
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇹🇷 土耳其A01
+  server: 7htxced.tr01-ae5.entry.v51124-5.qpon
+  port: 20038
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇮🇳 印度A01
+  server: p30g1ed.in01-ae5.entry.v51124-5.qpon
+  port: 20048
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A06 | x0.8
+  server: nz35yed.hk06-ae5.entry.v51124-5.qpon
+  port: 1416
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A02 | IEPL
+  server: gbudued.jp02-ae5.entry.v51124-5.qpon
+  port: 486
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇫🇷 法国A01
+  server: plbqded.fr01-ae5.entry.v51124-5.qpon
+  port: 20068
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A05 | 下载专用 | x0.01
+  server: 9jmh7-g05.jp05-vm5.entry.rtysjur.quest
+  port: 64658
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡A01
+  server: 6d5a7ed.sg01-ae5.entry.v51124-5.qpon
+  port: 20003
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇺🇦 乌克兰A01
+  server: xrkh3ed.ua01-ae5.entry.v51124-5.qpon
+  port: 20073
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A09 | IEPL
+  server: ayhjwed.jp09-ae5.entry.v51124-5.qpon
+  port: 11161
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇷🇺 俄罗斯A01
+  server: zkzw0ed.ru01-ae5.entry.v51124-5.qpon
+  port: 20033
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A10 | IEPL
+  server: pcrwwed.jp10-ae5.entry.v51124-5.qpon
+  port: 16527
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A10 | IEPL
+  server: 1qwr5ed.hk10-vm5.entry.v51124-5.qpon
+  port: 13486
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: speedtest-bgp-01-10.entry-0.chinasnow.net
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本4-Ver.8
+  server: dl989-g05.jp04-1d-vm0.entry.fr0528.art
+  port: 448
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本2-Ver.8
+  server: 1cuyx-g05.jp02-e3-vm0.entry.fr0528.art
+  port: 11777
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇺🇲 美国A01
+  server: rz72sed.us01-ae5.entry.v51124-5.qpon
+  port: 20013
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本1-Ver.7
+  server: 8ypua-g05.jp01-nn-vm0.entry.fr0528.art
+  port: 21585
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A05 | IEPL
+  server: 7sv2wed.hk05-ae5.entry.v51124-5.qpon
+  port: 1815
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A04 | IEPL
+  server: jl0nfed.jp04-ae5.entry.v51124-5.qpon
+  port: 496
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A01
+  server: no3b2ed.hk01-ae5.entry.v51124-5.qpon
+  port: 19275
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A03 | IEPL
+  server: ddv12ed.hk03-ae5.entry.v51124-5.qpon
+  port: 763
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇬🇧 英国A01
+  server: 67mgoed.gb01-ae5.entry.v51124-5.qpon
+  port: 20023
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇺🇲 美国A02
+  server: b516bed.us02-ae5.entry.v51124-5.qpon
+  port: 20018
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇦🇺 澳大利亚A01
+  server: jdnsaed.au01-ae5.entry.v51124-5.qpon
+  port: 20063
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本7-Ver.2
+  server: anvri-g05.jp07-sh-vm0.entry.fr0528.art
+  port: 28787
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇨🇦 加拿大A01
+  server: 3ad03ed.ca01-ae5.entry.v51124-5.qpon
+  port: 20058
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A08 | x0.8
+  server: 4u2ched.jp08-ae5.entry.v51124-5.qpon
+  port: 12546
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 日本A01
+  server: at9p6ed.jp01-ae5.entry.v51124-5.qpon
+  port: 476
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇯🇵 免费-日本3-Ver.7
+  server: et0f2-g05.jp03-j7-vm0.entry.fr0528.art
+  port: 21585
+  type: vmess
+  uuid: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A07 | x0.8
+  server: p70c5ed.hk07-ae5.entry.v51124-5.qpon
+  port: 1423
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇸🇬 新加坡A02
+  server: hsgwged.sg02-ae5.entry.v51124-5.qpon
+  port: 20078
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇨🇳 台湾A01 | IEPL | x2
+  server: 8sbz9ed.tw01-ae5.entry.v51124-5.qpon
+  port: 20008
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇭🇰 香港A04 | IEPL
+  server: b6qvped.hk04-ae5.entry.v51124-5.qpon
+  port: 807
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇦🇷 阿根廷A01
+  server: vwysped.ar01-ae5.entry.v51124-5.qpon
+  port: 20028
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+- name: 🏳️ None | 🇩🇪 德国A01
+  server: 37m99ed.de01-ae5.entry.v51124-5.qpon
+  port: 20053
+  type: ss
+  cipher: aes-256-gcm
+  password: 78ac261e-2ff9-3efe-bb41-97bf5daa4af2
+  udp: true
+proxy-groups:
+- name: MAIN
+  type: select
+  proxies:
+  - 🏳️ None | 🇯🇵 日本A07 | x0.8
+  - 🏳️ None | 🇰🇷 韩国A01
+  - 🏳️ None | 🇸🇬 新加坡A03 | IEPL | x2
+  - 🏳️ None | 🇭🇰 香港A02 | IEPL
+  - 🏳️ None | 🇯🇵 日本A03 | IEPL
+  - 🏳️ None | 🇯🇵 日本A06 | 下载专用 | x0.01
+  - 🏳️ None | 🇭🇰 香港A11 | IEPL
+  - 🏳️ None | 🇯🇵 免费-日本5-Ver.9
+  - 🏳️ None | 🇭🇰 香港A08 | x0.8
+  - 🏳️ None | 🇭🇰 香港A09 | IEPL
+  - 🏳️ None | 🇯🇵 免费-日本6-Ver.8
+  - 🏳️ None | 🇯🇵 日本A11 | IEPL
+  - 🏳️ None | 🇹🇷 土耳其A01
+  - 🏳️ None | 🇮🇳 印度A01
+  - 🏳️ None | 🇭🇰 香港A06 | x0.8
+  - 🏳️ None | 🇯🇵 日本A02 | IEPL
+  - 🏳️ None | 🇫🇷 法国A01
+  - 🏳️ None | 🇯🇵 日本A05 | 下载专用 | x0.01
+  - 🏳️ None | 🇸🇬 新加坡A01
+  - 🏳️ None | 🇺🇦 乌克兰A01
+  - 🏳️ None | 🇯🇵 日本A09 | IEPL
+  - 🏳️ None | 🇷🇺 俄罗斯A01
+  - 🏳️ None | 🇯🇵 日本A10 | IEPL
+  - 🏳️ None | 🇭🇰 香港A10 | IEPL
+  - 🏳️ None | 🇯🇵 免费-日本4-Ver.8
+  - 🏳️ None | 🇯🇵 免费-日本2-Ver.8
+  - 🏳️ None | 🇺🇲 美国A01
+  - 🏳️ None | 🇯🇵 免费-日本1-Ver.7
+  - 🏳️ None | 🇭🇰 香港A05 | IEPL
+  - 🏳️ None | 🇯🇵 日本A04 | IEPL
+  - 🏳️ None | 🇭🇰 香港A01
+  - 🏳️ None | 🇭🇰 香港A03 | IEPL
+  - 🏳️ None | 🇬🇧 英国A01
+  - 🏳️ None | 🇺🇲 美国A02
+  - 🏳️ None | 🇦🇺 澳大利亚A01
+  - 🏳️ None | 🇯🇵 免费-日本7-Ver.2
+  - 🏳️ None | 🇨🇦 加拿大A01
+  - 🏳️ None | 🇯🇵 日本A08 | x0.8
+  - 🏳️ None | 🇯🇵 日本A01
+  - 🏳️ None | 🇯🇵 免费-日本3-Ver.7
+  - 🏳️ None | 🇭🇰 香港A07 | x0.8
+  - 🏳️ None | 🇸🇬 新加坡A02
+  - 🏳️ None | 🇨🇳 台湾A01 | IEPL | x2
+  - 🏳️ None | 🇭🇰 香港A04 | IEPL
+  - 🏳️ None | 🇦🇷 阿根廷A01
+  - 🏳️ None | 🇩🇪 德国A01
+rules:
+- MATCH,MAIN
